@@ -5,6 +5,12 @@ import ( // 引入了代码包fmt和runtime。
 	"runtime"
 )
 
+/*
+TODO:
+1. init
+2. g_
+3. map
+*/
 func init() { // 代码包初始化函数。
 	fmt.Printf("Map: %v\n", m) // 格式化的打印。
 	// 通过调用runtime包的代码获取当前机器的操作系统和计算架构。
